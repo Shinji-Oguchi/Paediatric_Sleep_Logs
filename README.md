@@ -22,9 +22,9 @@ Key features include:
 ```
 Paediatric_Sleep_Logs/
 ├── data/
-│   ├── Discovery data/               # 14-day sleep logs which is used to develop a novel machine-learning approach
-│   ├── Discovery train data/         # 14-day sleep logs which is used to train our machine-learning model
-│   └── Validation data/              # 14-day sleep logs which is used for association analysis
+│   ├── Discovery data/                   # 14-day sleep logs which is used to develop a novel machine-learning approach
+│   ├── Discovery train data/             # 14-day sleep logs which is used to train our machine-learning model
+│   └── Validation data/                  # 14-day sleep logs which is used for association analysis
 ├── processing/
 │   ├── processing_of_discovery_data.py   # Python: undersampling & tensor preparation for discovery data
 │   └── processing_of_validation_data.R   # R: missing‐data filtering and tensor preparation for validation data
